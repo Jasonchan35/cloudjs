@@ -1,0 +1,7 @@
+axStatus_enum( error )
+axStatus_enum( error_newJSObject )
+axStatus_enum( error_set_object_property )
+axStatus_enum( error_get_object_property )
+axStatus_enum( error_set_object_element )
+axStatus_enum( error_get_object_element )
+axStatus_enum( invalid_func_arg_index )

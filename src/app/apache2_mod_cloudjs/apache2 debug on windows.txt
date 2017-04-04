@@ -1,0 +1,4 @@
+run apapche command line
+httpd.exe -X
+
+replace by debug version of "Debug\bin\mozjs.dll" to "c:\cloudjs\bin\mozjs.dll"

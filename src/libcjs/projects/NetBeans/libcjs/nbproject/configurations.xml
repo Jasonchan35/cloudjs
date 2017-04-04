@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="libcjs" displayName="libcjs" projectFiles="true">
+        <logicalFolder name="cjs" displayName="cjs" projectFiles="true">
+          <itemPath>../../../../../include/libcjs/cjs/cjsClass.h</itemPath>
+          <itemPath>../../../../../include/libcjs/cjs/cjsConfig.h</itemPath>
+          <itemPath>../../../../../include/libcjs/cjs/cjsContext.h</itemPath>
+          <itemPath>../../../../../include/libcjs/cjs/cjsModule.h</itemPath>
+          <itemPath>../../../../../include/libcjs/cjs/cjsObject.h</itemPath>
+          <itemPath>../../../../../include/libcjs/cjs/cjs_define.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="external" displayName="external" projectFiles="true">
+          <logicalFolder name="js" displayName="js" projectFiles="true">
+            <logicalFolder name="Platform" displayName="Platform" projectFiles="true">
+              <logicalFolder name="FreeBSD" displayName="FreeBSD" projectFiles="true">
+                <logicalFolder name="amd64" displayName="amd64" projectFiles="true">
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/FreeBSD/amd64/js-config.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="Linux" displayName="Linux" projectFiles="true">
+                <logicalFolder name="x86" displayName="x86" projectFiles="true">
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/Linux/x86/js-config.h</itemPath>
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/Linux/x86/jsautocfg.h</itemPath>
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/Linux/x86/jsautokw.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="x86_64" displayName="x86_64" projectFiles="true">
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/Linux/x86_64/js-config.h</itemPath>
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/Linux/x86_64/jsautocfg.h</itemPath>
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/Linux/x86_64/jsautokw.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="MacOSX" displayName="MacOSX" projectFiles="true">
+                <logicalFolder name="x86" displayName="x86" projectFiles="true">
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/MacOSX/x86/js-config.h</itemPath>
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/MacOSX/x86/jsautocfg.h</itemPath>
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/MacOSX/x86/jsautokw.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="x86_64" displayName="x86_64" projectFiles="true">
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/MacOSX/x86_64/js-config.h</itemPath>
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/MacOSX/x86_64/jsautocfg.h</itemPath>
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/MacOSX/x86_64/jsautokw.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="Windows" displayName="Windows" projectFiles="true">
+                <logicalFolder name="Win32" displayName="Win32" projectFiles="true">
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/Windows/Win32/js-config.h</itemPath>
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/Windows/Win32/jsautocfg.h</itemPath>
+                  <itemPath>../../../../../include/libcjs/external/js/Platform/Windows/Win32/jsautokw.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <itemPath>../../../../../include/libcjs/external/js/Allocator.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/Assembler.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/CodeAlloc.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/Containers.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/Fragmento.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/LIR.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/LIRopcode.tbl</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/Native.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/NativeCommon.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/Nativei386.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/RegAlloc.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/VMPI.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/Writer.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/avmplus.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/js-config.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/js.msg</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsanalyze.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsapi.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsarena.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsarray.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsatom.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsautocfg.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsautokw.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsbit.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsbool.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsbuiltins.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jscell.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsclist.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsclone.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jscntxt.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jscompartment.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jscompat.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jscpucfg.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsdate.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsdbgapi.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsdhash.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsdtoa.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsemit.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsfriendapi.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsfun.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsgc.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsgcchunk.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsgcstats.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jshash.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jshashtable.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jshotloop.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsinterp.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsinttypes.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsiter.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jslock.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jslong.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsmath.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsobj.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsobjinlines.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/json.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsopcode.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsopcode.tbl</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsopcodeinlines.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsotypes.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsparse.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsperf.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsprf.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsprobes.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jspropertycache.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jspropertycacheinlines.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jspropertytree.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsproto.tbl</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsproxy.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsprvtd.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jspubtd.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsreflect.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsregexp.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsscan.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsscope.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsscript.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsscriptinlines.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsstaticcheck.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsstdint.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsstr.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jstl.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jstracer.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jstypedarray.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jstypes.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsutil.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsval.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsvalue.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsvector.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsversion.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jswrapper.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsxdrapi.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/jsxml.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/nanojit.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/njconfig.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/njcpudetect.h</itemPath>
+            <itemPath>../../../../../include/libcjs/external/js/prmjtime.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>../../../../../include/libcjs/libcjs.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <itemPath>../../../src/cjsClass_cloud.h</itemPath>
+        <itemPath>../../../src/cjsConfig.cpp</itemPath>
+        <itemPath>../../../src/cjsContext.cpp</itemPath>
+        <itemPath>../../../src/cjsModule.cpp</itemPath>
+        <itemPath>../../../src/cjsObject.cpp</itemPath>
+        <itemPath>../../../src/precompiled_header.cpp</itemPath>
+        <itemPath>../../../src/precompiled_header.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>../../../../../../libax/projects/NetBeans/libax.mk</itemPath>
+      <itemPath>../../../../../projects/NetBeans/libcjs.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../../../include/libcjs</Elem>
+    <Elem>../../autoconf</Elem>
+    <Elem>../../../src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandLine>${axCCFLAGS}</commandLine>
+        </ccTool>
+        <archiverTool>
+          <output>../../../../../lib/${axPLATFORM_PATH}/${CND_CONF}/libcjs.a</output>
+        </archiverTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>${axCCFLAGS}</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+          <output>../../../../../lib/${axPLATFORM_PATH}/${CND_CONF}/libcjs.a</output>
+        </archiverTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

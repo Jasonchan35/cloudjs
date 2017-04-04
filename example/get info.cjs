@@ -1,0 +1,2 @@
+cjs.include("test.cjs");
+

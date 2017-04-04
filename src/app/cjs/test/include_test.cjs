@@ -1,0 +1,1 @@
+cjs.print("include_test\n");

@@ -1,0 +1,11 @@
+
+LoadFile <libstdc_filename>
+LoadModule cloudjs_module <test_root>/../../../../dist/<axPLATFORM_PATH>/bin/apache2_mod_cloudjs.so
+
+AddHandler cloudjs .cjs
+AddType text/html .cjs
+
+AddHandler cloudjs-page .cjsp
+AddType text/html .cjsp
+
+

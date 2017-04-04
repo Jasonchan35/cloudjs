@@ -1,0 +1,2 @@
+cloud.include("test.cjs");
+

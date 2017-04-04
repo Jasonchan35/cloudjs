@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <itemPath>../../../src/mod_cloudjs.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="test" displayName="test" projectFiles="true">
+      <logicalFolder name="conf" displayName="conf" projectFiles="true">
+        <itemPath>../../../test/conf/httpd.conf</itemPath>
+        <itemPath>../../../test/conf/httpd.conf.in</itemPath>
+      </logicalFolder>
+      <logicalFolder name="conf.d" displayName="conf.d" projectFiles="true">
+        <itemPath>../../../test/conf.d/cloudjs.conf</itemPath>
+        <itemPath>../../../test/conf.d/cloudjs.conf.in</itemPath>
+      </logicalFolder>
+      <logicalFolder name="html" displayName="html" projectFiles="true">
+        <itemPath>../../../test/html/dead_loop.cjs</itemPath>
+        <itemPath>../../../test/html/get info.cjs</itemPath>
+        <itemPath>../../../test/html/sqlite_test.db</itemPath>
+        <itemPath>../../../test/html/test.cjs</itemPath>
+        <itemPath>../../../test/html/test.html</itemPath>
+        <itemPath>../../../test/html/test_sqlite3.cjs</itemPath>
+      </logicalFolder>
+      <logicalFolder name="logs" displayName="logs" projectFiles="true">
+        <itemPath>../../../test/logs/access_log</itemPath>
+        <itemPath>../../../test/logs/error_log</itemPath>
+      </logicalFolder>
+      <logicalFolder name="run" displayName="run" projectFiles="true">
+        <itemPath>../../../test/run/httpd.pid</itemPath>
+      </logicalFolder>
+      <itemPath>../../../test/generate_config.sh</itemPath>
+      <itemPath>../../../test/modules</itemPath>
+      <itemPath>../../../test/start.sh</itemPath>
+      <itemPath>../../../test/start.sh.in</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandlineTool>g++</commandlineTool>
+          <commandLine>${axCCFLAGS}</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${libcjs_path}/dist/${axPLATFORM_PATH}/bin/apache2_mod_cloudjs.so</output>
+          <linkerAddLib>
+            <pElem>../../../lib/${axPLATFORM_LIB_PATH}/${CND_CONF}</pElem>
+            <pElem>../../../lib/${axPLATFORM_LIB_PATH}</pElem>
+            <pElem>../../../../libax/lib/${axPLATFORM_LIB_PATH}/${CND_CONF}</pElem>
+            <pElem>../../../../libax/lib/${axPLATFORM_LIB_PATH}</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>${axLDFLAGS}</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>${axCCFLAGS}</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${libcjs_path}/dist/${axPLATFORM_PATH}/bin/apache2_mod_cloudjs.so</output>
+          <linkerAddLib>
+            <pElem>../../../lib/${axPLATFORM_LIB_PATH}/${CND_CONF}</pElem>
+            <pElem>../../../lib/${axPLATFORM_LIB_PATH}</pElem>
+            <pElem>../../../../libax/lib/${axPLATFORM_LIB_PATH}/${CND_CONF}</pElem>
+            <pElem>../../../../libax/lib/${axPLATFORM_LIB_PATH}</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>${axLDFLAGS}</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
